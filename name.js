@@ -9,8 +9,15 @@ function nameList(firtsName, lastName) {
 	}
 	return nameFirstLast
 }
-console.log(nameFirstLast)
+console.log(nameList('Colucci', 'Gianni'))
 
-export default nameFirstLast
+
+
+
+
 
 //export default per esportare un'unica entità principale da un modulo. //export esporta più elementi da un modulo
+
+//export default nameList (versione defoult es6 ecmascript)
+//common js (prima versione per i moduli node js)
+module.exports = nameList
