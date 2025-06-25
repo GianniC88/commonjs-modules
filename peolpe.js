@@ -7,3 +7,11 @@ Crea una funzione che non ha parametri.La funzione dovrebbe restituire un oggett
 
 import nameList from "./name.js";
 import hobbyList from "./hobbies.js";
+
+function people() {
+	return {
+		name: nameList('Colucci', 'Gianni'),
+		hobby: hobbyList('sport', 'mangiare', 'musica')
+	}
+}
+console.log(people())
